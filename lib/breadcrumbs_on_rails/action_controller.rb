@@ -69,7 +69,7 @@ module BreadcrumbsOnRails
 
         element_options = filter_options.delete(:options) || {}
 
-        before_filter(filter_options) do |controller|
+        before_action(filter_options) do |controller|
           controller.send(:add_breadcrumb, name, path, element_options)
         end
       end

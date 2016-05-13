@@ -7,3 +7,4 @@ gemfiles/*.gemfile.lock
 # YARD
 .yardoc
 yardoc/
+*.DS_Store
